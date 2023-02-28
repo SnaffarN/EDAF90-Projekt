@@ -13,12 +13,15 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 import { RecommendBookComponent } from './recommend-book/recommend-book.component';
+import {MatButtonModule} from '@angular/material/button';
+import { BookRecommendationComponent } from './book-recommendation/book-recommendation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookSearchComponent,
-    RecommendBookComponent
+    RecommendBookComponent,
+    BookRecommendationComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { RecommendBookComponent } from './recommend-book/recommend-book.componen
     ReactiveFormsModule,
     MatCheckboxModule,
     MatSlideToggleModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
