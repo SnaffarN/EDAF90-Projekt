@@ -23,11 +23,121 @@
         {
 			"title": "Männen i mitt liv",
 			"author": "Sofia Rönnow Pessah",
-			"genre": "",
+			"genre": "fiction",
 			"num_pages": 243,
 			"book_type": "novel",
             "language": "Swedish",
             "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "The wild iris",
+			"author": "Louise Glück",
+			"genre": "poetry",
+			"num_pages": 71,
+			"book_type": "poetry",
+            "language": "English",
+            "set_in": "America",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Shadow and bone",
+			"author": "Leigh Bardugo",
+			"genre": "fantasy",
+			"num_pages": 295,
+			"book_type": "part of series",
+            "language": "English",
+            "set_in": "Fantasy",
+			"target_audience": "young adult"
+		}, 
+        {
+			"title": "Åtta procent av ingenting",
+			"author": "Etgar Keret",
+			"genre": "short stories",
+			"num_pages": 195,
+			"book_type": "short story collection",
+            "language": "Swedish",
+            "set_in": "Israel",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Pawn of prophecy",
+			"author": "David Eddings",
+			"genre": "Fantasy",
+			"num_pages": 265,
+			"book_type": "part of series",
+            "language": "English",
+            "set_in": "Fantasy",
+			"target_audience": "adult"
+		},
+        {
+			"title": "A little life",
+			"author": "Hanya Yanagihara",
+			"genre": "fiction",
+			"num_pages": 720,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "USA",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Jane Eyre",
+			"author": "Charlotte Brontë",
+			"genre": "Classics",
+			"num_pages": 546,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "Great Britain",
+			"target_audience": "adult"
+		},
+        {
+			"title": "Vindens skugga",
+			"author": "Carlos Ruiz Zafón",
+			"genre": "Adventure stories",
+			"num_pages": 479,
+			"book_type": "short story",
+            "language": "Swedish",
+            "set_in": "Spain",
+			"target_audience": "young adult"
+		},
+        {
+			"title": "Anna Karenina",
+			"author": "Leo Tolstoy",
+			"genre": "Classics",
+			"num_pages": 864,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "Russia",
+			"target_audience": "adult"
+		},
+        {
+			"title": "It",
+			"author": "Stephen King",
+			"genre": "Horror",
+			"num_pages": 1138,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "USA",
+			"target_audience": "adult"
+		},
+        {
+			"title": "Frankenstein",
+			"author": "Mary Shelley",
+			"genre": "Horror",
+			"num_pages": 280,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "Great Britain",
+			"target_audience": "adult"
+		},
+        {
+			"title": "The house at the end of the world",
+			"author": "Dean Koontz",
+			"genre": "Science fiction",
+			"num_pages": 398,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "Saint Helena",
 			"target_audience": "adult"
 		}
 	]

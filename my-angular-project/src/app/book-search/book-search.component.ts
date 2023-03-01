@@ -27,6 +27,7 @@ export class BookSearchComponent {
     {name: "Thrillers", value: "thrillers"},
     {name: "War", value: "war"},
     {name: "Young adult", value: "youngAdult"},
+    {name: "Fiction", value: "fiction"},
   ];
 
   types: Array<any> = [
@@ -34,6 +35,7 @@ export class BookSearchComponent {
     {name: "Short story", value: "shortStory"},
     {name: "Part of Series", value: "partOfSeries"},
     {name: "Short story collection", value: "shortStoryCollection"},
+    {name: "Poetry", value: "poetry"},
   ]
   
   time : Array<any> = [
