@@ -38,11 +38,6 @@ export class BookSearchComponent {
     {name: "Poetry", value: "poetry"},
   ]
   
-  time : Array<any> = [
-    {name: "Prehistoric time", value: "prehistoric"},
-    {name: "Modern time", value: "modernTime"}
-  ]
-  
   bookForm = this.fb.group({
     genre: this.fb.array(this.genres),
     type: this.fb.array(this.types),

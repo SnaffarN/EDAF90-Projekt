@@ -2,14 +2,14 @@
 <form [formGroup] = "bookForm">
   <mat-label>Genre:
     <div *ngFor="let genre of genres; let i=index" formArrayName="genre">
-      <mat-checkbox [formControlName]="i">{{genre.name}}</mat-checkbox>
+      <mat-option value [formControlName]="i">{{genre.name}}</mat-option>
     </div>
   </mat-label>
   <mat-form-field appearance="fill">
     <mat-label>Language</mat-label>
-    <mat-select formControlName="time">
-      <mat-option value="Förhistorisk tid">Förhistorisk tid</mat-option>
-      <mat-option value="Modern tid">Modern tid</mat-option>
+    <mat-select formControlName="language">
+      <mat-option value="English">English</mat-option>
+      <mat-option value="Swedish">Swedish</mat-option>
     </mat-select>
   </mat-form-field>
 </form>
