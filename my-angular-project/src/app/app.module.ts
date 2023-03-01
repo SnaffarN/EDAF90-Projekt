@@ -14,7 +14,6 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 import { RecommendBookComponent } from './recommend-book/recommend-book.component';
 import {MatButtonModule} from '@angular/material/button';
-import { BookRecommendationComponent } from './book-recommendation/book-recommendation.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
@@ -22,7 +21,6 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppComponent,
     BookSearchComponent,
     RecommendBookComponent,
-    BookRecommendationComponent
   ],
   imports: [
     BrowserModule,

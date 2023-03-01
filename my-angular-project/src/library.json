@@ -1,0 +1,34 @@
+{
+	"books": [
+		{
+			"title": "Normal people",
+			"author": "Sally Rooney",
+			"genre": "romance",
+			"num_pages": 266,
+			"book_type": "novel",
+            "language": "english",
+            "set_in": "Ireland",
+			"target_audience": "young adult"
+		},
+		{
+			"title": "Memoirs of a Geisha",
+			"author": "Arthur Golden",
+			"genre": "historical fiction",
+			"num_pages": 448,
+			"book_type": "novel",
+            "language": "english",
+            "set_in": "Japan",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Männen i mitt liv",
+			"author": "Sofia Rönnow Pessah",
+			"genre": "",
+			"num_pages": 243,
+			"book_type": "novel",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}
+	]
+}
