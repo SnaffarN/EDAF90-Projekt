@@ -139,6 +139,126 @@
             "language": "English",
             "set_in": "Saint Helena",
 			"target_audience": "adult"
+		},
+        {
+			"title": "The book of hidden things",
+			"author": "Francesco Dimitri",
+			"genre": "Thriller",
+			"num_pages": 400,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "Italy",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Spindeln",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 544,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Spegelmannen",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 522,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Hypnotisören",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 536,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		},
+        {
+			"title": "Paganinikontraktet",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 561,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Eldvittnet",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 561,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Sandmannen",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 517,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Stalker",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 561,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Lazarus",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 530,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "Kaninjägaren",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 572,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "The secret history",
+			"author": "Donna Tartt",
+			"genre": "Crime",
+			"num_pages": 640,
+			"book_type": "novel",
+            "language": "English",
+            "set_in": "New England",
+			"target_audience": "adult"
+		}, 
+        {
+			"title": "",
+			"author": "Lars Kepler",
+			"genre": "Crime",
+			"num_pages": 561,
+			"book_type": "part of series",
+            "language": "Swedish",
+            "set_in": "Sweden",
+			"target_audience": "adult"
 		}
 	]
 }
