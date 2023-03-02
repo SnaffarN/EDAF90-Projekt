@@ -32,11 +32,26 @@ export class BookSearchComponent {
     {name: "Short story collection", value: "shortStoryCollection"},
     {name: "Poetry", value: "poetry"},
   ]
+
+  set_in: Array<any> = [
+    {name: "Fantasy", value: "fantasy"},
+    {name: "Great Britain", value: "greatBritain"},
+    {name: "Ireland", value: "ireland"},
+    {name: "Italy", value: "italy"}, 
+    {name: "Japan", value: "japan"}, 
+    {name: "Russia", value: "russia"}, 
+    {name: "Saint Helena", value: "saintHelena"},
+    {name: "Spain", value: "spain"}, 
+    {name: "Sweden", value: "sweden"},
+    {name: "USA", value: "usa"}
+  ]
   
   bookForm = this.fb.group({
     genre: [''],
     type: this.fb.array(this.types),
-    language: ['']
+    language: [''],
+    set_in: [''], 
+    target_audience: ['']
   })
 
   submitForm() {
