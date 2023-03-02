@@ -8,3 +8,7 @@
     color:rgb(176, 47, 47);
     text-align:center;
  }
+
+ .home-button-spacer {
+   flex: 1 1 auto;
+ }
