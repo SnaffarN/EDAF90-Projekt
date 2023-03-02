@@ -16,12 +16,14 @@ import { RecommendBookComponent } from './recommend-book/recommend-book.componen
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookSearchComponent,
     RecommendBookComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
