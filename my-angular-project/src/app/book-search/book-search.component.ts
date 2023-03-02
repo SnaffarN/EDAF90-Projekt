@@ -39,26 +39,11 @@ export class BookSearchComponent {
   ]
   
   bookForm = this.fb.group({
-    genre: this.fb.array(this.genres),
+    genre: [''],
     type: this.fb.array(this.types),
-    time: ['']
+    language: ['']
   })
 
-  onCheckboxChange(e: any, type: string) {
-    const checkArray: FormArray = this.bookForm.get(type) as FormArray;
-    if (e.target.checked) {
-      checkArray.push(new FormControl(e.target.value));
-    } else {
-      let i: number = 0;
-      checkArray.controls.forEach((item: any) => {
-        if (item.value == e.target.value) {
-          checkArray.removeAt(i);
-          return;
-        }
-        i++;
-      });
-    }
-  }
   submitForm() {
     console.log(this.bookForm.value);
   }

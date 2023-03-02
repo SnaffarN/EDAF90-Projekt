@@ -1,16 +1,25 @@
-<div class="example-section">
-<form [formGroup] = "bookForm">
-  <mat-label>Genre:
-    <div *ngFor="let genre of genres; let i=index" formArrayName="genre">
-      <mat-option value [formControlName]="i">{{genre.name}}</mat-option>
-    </div>
-  </mat-label>
-  <mat-form-field appearance="fill">
-    <mat-label>Language</mat-label>
-    <mat-select formControlName="language">
-      <mat-option value="English">English</mat-option>
-      <mat-option value="Swedish">Swedish</mat-option>
-    </mat-select>
-  </mat-form-field>
-</form>
+<div class="book-search-container">
+  <mat-card class="book-search-card">
+    <mat-card-header>
+      <mat-card-title>Please input following categories</mat-card-title>
+    </mat-card-header>
+    <form class="form-container" [formGroup] = "bookForm">
+      <mat-form-field appearance="fill">
+        <mat-label>Genre</mat-label>
+        <mat-select formControlName="genre">
+          <mat-option *ngFor="let genre of genres" [value]="genre.name">
+            {{genre.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Language</mat-label>
+        <mat-select formControlName="language">
+          <mat-option value="English">English</mat-option>
+          <mat-option value="Swedish">Swedish</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button color="primary" (click)="submitForm()" >Find my book!</button>
+    </form>
+  </mat-card>
 </div>
