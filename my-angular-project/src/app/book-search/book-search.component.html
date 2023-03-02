@@ -19,6 +19,21 @@
           <mat-option value="Swedish">Swedish</mat-option>
         </mat-select>
       </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Set in:</mat-label>
+        <mat-select formControlName="set_in">
+          <mat-option *ngFor="let set_in of set_in" [value]="set_in.name">
+            {{set_in.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+      <mat-label>Target audience</mat-label>
+        <mat-select formControlName="target_audience">
+          <mat-option value="Young Adult">Young Adult</mat-option>
+          <mat-option value="Adult">Adult</mat-option>
+        </mat-select>
+      </mat-form-field>
       <button mat-raised-button color="primary" (click)="submitForm()">Find my book!</button>
     </form>
   </mat-card>
