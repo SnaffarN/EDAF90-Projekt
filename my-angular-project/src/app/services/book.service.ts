@@ -7,6 +7,7 @@ import { Book } from '../Book';
 })
 export class BookService {
   private apiUrl = 'http://localhost:3000/'
+  private randomize = false;
 
   constructor(private http: HttpClient) {}
 
@@ -33,6 +34,14 @@ export class BookService {
 
   public removeSaved(book: Book) {
     this.http.delete<Book>(this.apiUrl + 'savedBooks/' + book.id).subscribe(data => console.log(data));
+  }
+  
+  public setRandomize(randomize: boolean) {
+    this.randomize = randomize;
+  }
+
+  public getRandomize(): boolean {
+    return this.randomize;
   }
 
 }

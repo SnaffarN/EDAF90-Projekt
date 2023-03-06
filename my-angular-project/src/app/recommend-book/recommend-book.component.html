@@ -4,17 +4,16 @@
       <mat-card-title>We think you would really like...</mat-card-title>
     </mat-card-header>
     <mat-card-content>
-      {{getBestMatch().title}}
+      {{bookMatch.title}}
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" (click)="saveBook()" (click)="openSnackBar()"> Sounds good!</button>
-    
+      <button class="button" mat-raised-button color="primary" (click)="saveBook()" routerLink="/book-confirmation"> Sounds good!</button>
       
-     
+      <div *ngIf="getRandomize()">
+        <button class="button" mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
+      </div>
 
-      <button mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
-
-      <button mat-raised-button color="primary" routerLink="/book-search">Change my choices</button>
+      <button class="button" mat-raised-button color="primary" routerLink="/book-search">Change my choices</button>
 
     </mat-card-actions>
   </mat-card>

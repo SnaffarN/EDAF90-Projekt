@@ -12,3 +12,12 @@
  .home-button-spacer {
    flex: 1 1 auto;
  }
+
+ .content-container {
+    width: 800px;
+    margin: 20px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}

@@ -14,10 +14,14 @@ export class RecommendBookComponent implements OnInit{
 
   search = {} as Book;
   books = [] as Book[];
-  bookMatch = {} as Book;
+  bookMatch = {title: ""} as Book;
+  randomId: number = 0;
 
   newSuggestion(): void {
-    console.log("Generera nytt förslag");
+    let newBook = this.books[this.getRandomInt(this.books.length)];
+    while(newBook.title === this.bookMatch.title)
+      newBook = this.books[this.getRandomInt(this.books.length)];
+    this.bookMatch = newBook;
   }
 
   saveBook(): void {
@@ -28,8 +32,14 @@ export class RecommendBookComponent implements OnInit{
 
   ngOnInit(): void {
     this.search = this.bookService.getSearch();
-    this.bookService.getBooks().subscribe((books) =>
-      this.books = books);
+    this.bookService.getBooks().subscribe((books) => {
+      this.books = books;
+      if(this.bookService.getRandomize())
+        this.bookMatch = books[this.getRandomInt(books.length)];
+      else
+        this.bookMatch = this.getBestMatch();
+
+    })
   }
 
   private getMatchCount(search: Book, book: Book): number {
@@ -62,7 +72,15 @@ export class RecommendBookComponent implements OnInit{
     });
     console.log(bestMatchCount, bestMatchId)
     this.bookMatch = this.books[bestMatchId - 1];
-    return this.books[bestMatchId - 1]; 
+    return this.books[bestMatchId - 1];
+  }
+
+  public getRandomize() {
+    return this.bookService.getRandomize();
+  }
+
+  public getRandomInt(max: number): number {
+    return Math.floor(Math.random() * max);
   }
 
   openSnackBar(){

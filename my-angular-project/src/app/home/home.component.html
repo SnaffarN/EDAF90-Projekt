@@ -1,6 +1,14 @@
-<div><p>Welcome! Are you tired of your own bookshelf and want to explore the fantastic world of literature once more? 
-    Match with our database and get a suggestion based on <i>your</i> choices of what book next to read!</p>
+<div class="home-container">
+    <mat-card class="home-card">
+        <mat-card-content>
+            <p>Welcome! Are you tired of your own bookshelf and want to explore the fantastic world of literature once more? 
+                Match with our database and get a suggestion based on <i>your</i> choices of what book next to read!
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button class="button" mat-raised-button color="primary" routerLink="/book-search" (click)="onSearch()">Match me!</button>
+            <button class="button" mat-raised-button color="primary"routerLink="/recommend-books" (click)="onRandomize()">Randomize!</button>
+        </mat-card-actions>
+    </mat-card>
 
-    <button routerLink="/book-search">Match me!</button>
-    <button routerLink="/recommend-books">Randomize!</button>
 </div>
