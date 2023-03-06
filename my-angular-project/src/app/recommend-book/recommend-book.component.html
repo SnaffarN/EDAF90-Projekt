@@ -7,7 +7,7 @@
       {{getBestMatch().title}}
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" routerLink="/book-confirmation"> Sounds good!</button>
+      <button mat-raised-button color="primary" (click)="saveBook()" routerLink="/book-confirmation"> Sounds good!</button>
 
       <button mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
 

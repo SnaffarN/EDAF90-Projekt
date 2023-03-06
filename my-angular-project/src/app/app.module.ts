@@ -21,6 +21,7 @@ import { RecommendBookComponent } from './recommend-book/recommend-book.componen
 import { HomeComponent } from './home/home.component';
 import {BookService} from './services/book.service';
 import { BookConfirmationComponent } from './book-confirmation/book-confirmation.component';
+import { SavedBooksComponent } from './saved-books/saved-books.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { BookConfirmationComponent } from './book-confirmation/book-confirmation
     RecommendBookComponent,
     HomeComponent,
     BookConfirmationComponent,
+    SavedBooksComponent,
   ],
   imports: [
     BrowserModule,

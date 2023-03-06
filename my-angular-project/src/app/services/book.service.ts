@@ -23,4 +23,12 @@ export class BookService {
     return this.http.get<Book[]>(this.apiUrl + 'books');
   }
 
+  public saveBook(book : Book) {
+  this.http.post<Book>(this.apiUrl + 'savedBooks', book).subscribe(data => console.log(data));
+  }
+
+  public getSavedBooks(): Observable<Book[]> {
+    return this.http.get<Book[]>(this.apiUrl + 'savedBooks');
+  }
+
 }

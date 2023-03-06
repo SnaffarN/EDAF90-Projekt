@@ -18,6 +18,10 @@ export class RecommendBookComponent implements OnInit{
   newSuggestion(): void {
     console.log("Generera nytt förslag");
   }
+
+  saveBook(): void {
+    this.bookService.saveBook(this.bookMatch);
+  }
   
   constructor(private bookService: BookService) {}
 
@@ -56,7 +60,8 @@ export class RecommendBookComponent implements OnInit{
       }
     });
     console.log(bestMatchCount, bestMatchId)
-    return this.books[--bestMatchId]; 
+    this.bookMatch = this.books[bestMatchId - 1];
+    return this.books[bestMatchId - 1]; 
   }
 
 }
