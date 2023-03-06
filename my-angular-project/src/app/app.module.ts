@@ -18,6 +18,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
+import {BookService} from './services/book.service';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

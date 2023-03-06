@@ -1,34 +1,22 @@
-import { Component, EventEmitter,Output } from '@angular/core';
+import { Component, EventEmitter,Output, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import {FormBuilder} from '@angular/forms';
+import { BookService } from '../services/book.service';
 
 @Component({
   selector: 'app-recommend-book',
   templateUrl: './recommend-book.component.html',
   styleUrls: ['./recommend-book.component.css']
 })
-export class RecommendBookComponent {
-@Output() submit = new EventEmitter();
+export class RecommendBookComponent implements OnInit{
 
-  genre = this._formBuilder.group({
-    Fantasy: false,
-    Bibliografi: false,
-    Deckare: false,
-  });
+  search: string = '';
 
+  constructor(private book: BookService) {}
 
-  firstForm = new FormControl('');
-  time = new FormControl('');
-  rating = new FormControl('');
-  length= new FormControl('');
-  language = new FormControl(' ');
-  audience = new FormControl(' ');
-
-
-  constructor(private _formBuilder: FormBuilder) {}
-
-  onClick() {
-    this.submit.emit();
+  ngOnInit(): void {
+    this.search = this.book.getSearch();
+    console.log(this.search);
   }
 
 }
