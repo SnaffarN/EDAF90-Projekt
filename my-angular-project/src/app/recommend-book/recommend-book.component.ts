@@ -3,6 +3,7 @@ import { FormControl } from '@angular/forms';
 import {FormBuilder} from '@angular/forms';
 import { BookService } from '../services/book.service';
 import { Book } from '../Book';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-recommend-book',
@@ -23,7 +24,7 @@ export class RecommendBookComponent implements OnInit{
     this.bookService.saveBook(this.bookMatch);
   }
   
-  constructor(private bookService: BookService) {}
+  constructor(private bookService: BookService,private _snackBar: MatSnackBar) {}
 
   ngOnInit(): void {
     this.search = this.bookService.getSearch();
@@ -62,6 +63,10 @@ export class RecommendBookComponent implements OnInit{
     console.log(bestMatchCount, bestMatchId)
     this.bookMatch = this.books[bestMatchId - 1];
     return this.books[bestMatchId - 1]; 
+  }
+
+  openSnackBar(){
+    this._snackBar.open("Book was added to favorites");
   }
 
 }

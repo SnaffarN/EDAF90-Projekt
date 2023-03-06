@@ -20,16 +20,14 @@ import { BookSearchComponent } from './book-search/book-search.component';
 import { RecommendBookComponent } from './recommend-book/recommend-book.component';
 import { HomeComponent } from './home/home.component';
 import {BookService} from './services/book.service';
-import { BookConfirmationComponent } from './book-confirmation/book-confirmation.component';
 import { SavedBooksComponent } from './saved-books/saved-books.component';
-
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 @NgModule({
   declarations: [
     AppComponent,
     BookSearchComponent,
     RecommendBookComponent,
     HomeComponent,
-    BookConfirmationComponent,
     SavedBooksComponent,
   ],
   imports: [
@@ -48,6 +46,7 @@ import { SavedBooksComponent } from './saved-books/saved-books.component';
     MatCardModule,
     MatIconModule,
     HttpClientModule,
+    MatSnackBarModule
   ],
   providers: [BookService],
   bootstrap: [AppComponent]
