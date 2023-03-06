@@ -47,7 +47,7 @@ import { SavedBooksComponent } from './saved-books/saved-books.component';
     MatToolbarModule,
     MatCardModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [BookService],
   bootstrap: [AppComponent]
