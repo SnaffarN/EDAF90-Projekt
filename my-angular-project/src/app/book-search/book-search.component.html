@@ -7,7 +7,7 @@
       <mat-form-field appearance="fill">
         <mat-label>Genre</mat-label>
         <mat-select formControlName="genre">
-          <mat-option *ngFor="let genre of genres" [value]="genre.name">
+          <mat-option *ngFor="let genre of genres" [value]="genre.value">
             {{genre.name}}
           </mat-option>
         </mat-select>
@@ -15,14 +15,14 @@
       <mat-form-field appearance="fill">
         <mat-label>Language</mat-label>
         <mat-select formControlName="language">
-          <mat-option value="English">English</mat-option>
-          <mat-option value="Swedish">Swedish</mat-option>
+          <mat-option value="english">English</mat-option>
+          <mat-option value="swedish">Swedish</mat-option>
         </mat-select>
       </mat-form-field>
       <mat-form-field appearance="fill">
         <mat-label>Set in:</mat-label>
         <mat-select formControlName="set_in">
-          <mat-option *ngFor="let set_in of set_in" [value]="set_in.name">
+          <mat-option *ngFor="let set_in of set_in" [value]="set_in.value">
             {{set_in.name}}
           </mat-option>
         </mat-select>
@@ -30,8 +30,8 @@
       <mat-form-field appearance="fill">
       <mat-label>Target audience</mat-label>
         <mat-select formControlName="target_audience">
-          <mat-option value="Young Adult">Young Adult</mat-option>
-          <mat-option value="Adult">Adult</mat-option>
+          <mat-option value="youngAdult">Young Adult</mat-option>
+          <mat-option value="adult">Adult</mat-option>
         </mat-select>
       </mat-form-field>
       <button mat-raised-button color="primary" (click)="submitForm()" routerLink="/recommend-books">Find my book!</button>

@@ -1,18 +1,18 @@
 <div class="recommend-book-container">
-<mat-card class = "recommend-book-card">
-  <mat-card-header>
-    <mat-card-title>We think you would really like...</mat-card-title>
-  </mat-card-header>
-<mat-card-content>
-  {{search}}
-</mat-card-content>
-<mat-card-actions>
-  <button mat-raised-button color="primary" routerLink="/book-confirmation"> Sounds good!</button>
+  <mat-card class = "recommend-book-card">
+    <mat-card-header>
+      <mat-card-title>We think you would really like...</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      {{getBestMatch().title}}
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" routerLink="/book-confirmation"> Sounds good!</button>
 
-  <button mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
+      <button mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
 
-  <button mat-raised-button color="primary" routerLink="/book-search">Change my choices</button>
+      <button mat-raised-button color="primary" routerLink="/book-search">Change my choices</button>
 
-</mat-card-actions>
-</mat-card>
+    </mat-card-actions>
+  </mat-card>
 </div>

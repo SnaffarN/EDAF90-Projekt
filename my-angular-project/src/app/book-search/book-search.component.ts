@@ -1,6 +1,7 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { FormControl, FormBuilder, FormArray } from '@angular/forms';
 import { BookService } from '../services/book.service';
+import { Book } from '../Book';
 
 @Component({
   selector: 'app-book-search',
@@ -11,7 +12,7 @@ export class BookSearchComponent {
   @Output() submit: EventEmitter<any> = new EventEmitter();
 
   genres: Array<any> = [
-    {name: "Adventure stories", value: "youngAdult"},
+    {name: "Adventure stories", value: "adventureStories"},
     {name: "Classics", value: "classics"},
     {name: "Crime", value: "crime"},
     {name: "Fantasy", value: "fantasy"},
@@ -57,7 +58,8 @@ export class BookSearchComponent {
 
   submitForm() {
    // console.log(this.bookForm.value);
-    this.book.addSearch(JSON.stringify(this.bookForm.value));
+    const search = this.bookForm.value;
+    this.book.addSearch(search as Book);
   }
   
   constructor(private fb: FormBuilder, private book: BookService) {}
