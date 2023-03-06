@@ -10,13 +10,14 @@ export class SavedBooksComponent implements OnInit {
 
   saved = [] as Book[];
 
-
-
   constructor(private bookService: BookService) {}
 
   ngOnInit(): void {
       this.bookService.getSavedBooks().subscribe((books) => this.saved = books)
   }
 
-
+  markAsRead(book: Book) {
+    this.bookService.removeSaved(book);
+    this.ngOnInit();
+  }
 }

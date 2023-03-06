@@ -31,4 +31,8 @@ export class BookService {
     return this.http.get<Book[]>(this.apiUrl + 'savedBooks');
   }
 
+  public removeSaved(book: Book) {
+    this.http.delete<Book>(this.apiUrl + 'savedBooks/' + book.id).subscribe(data => console.log(data));
+  }
+
 }
