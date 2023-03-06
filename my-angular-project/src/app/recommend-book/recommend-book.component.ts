@@ -79,6 +79,10 @@ export class RecommendBookComponent implements OnInit{
     return this.bookService.getRandomize();
   }
 
+  public setRandomize(randomize: boolean) {
+    this.bookService.setRandomize(randomize);
+  }
+
   public getRandomInt(max: number): number {
     return Math.floor(Math.random() * max);
   }

@@ -23,17 +23,5 @@
       "language": "english"
     }
   ],
-  "savedBooks": [
-    {
-      "id": 1,
-      "title": "Game of Thrones",
-      "author": "George R.R. Martin",
-      "genre": "fantasy",
-      "num_pages": 451,
-      "type": "novel",
-      "set_in": "fantasy",
-      "target_audience": "youngAdult",
-      "language": "english"
-    }
-  ]
+  "savedBooks": []
 }

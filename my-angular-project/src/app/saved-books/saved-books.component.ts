@@ -1,4 +1,4 @@
-import { Component, EventEmitter,Output, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BookService } from '../services/book.service';
 import { Book } from '../Book';
 @Component({
@@ -7,10 +7,12 @@ import { Book } from '../Book';
   styleUrls: ['./saved-books.component.css']
 })
 export class SavedBooksComponent implements OnInit {
-
   saved = [] as Book[];
-
-  constructor(private bookService: BookService) {}
+  
+  constructor(private bookService: BookService) {
+    bookService.addSavedBook.subscribe(book =>
+      this.addSavedBook(book));
+  }
 
   ngOnInit(): void {
       this.bookService.getSavedBooks().subscribe((books) => this.saved = books)
@@ -18,6 +20,10 @@ export class SavedBooksComponent implements OnInit {
 
   markAsRead(book: Book) {
     this.bookService.removeSaved(book);
-    this.ngOnInit();
+    this.saved = this.saved.filter(b => b.id !== book.id);
+  }
+
+  addSavedBook(book: Book) {
+    this.saved.push(book);
   }
 }

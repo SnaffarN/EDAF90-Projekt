@@ -7,13 +7,13 @@
       {{bookMatch.title}}
     </mat-card-content>
     <mat-card-actions>
-      <button class="button" mat-raised-button color="primary" (click)="saveBook()" routerLink="/book-confirmation"> Sounds good!</button>
+      <button class="button" mat-raised-button color="primary" (click)="saveBook()" routerLink="/saved-books"> Sounds good!</button>
       
       <div *ngIf="getRandomize()">
         <button class="button" mat-raised-button color="primary" (click)="newSuggestion()">Give me a new suggestion</button>
       </div>
 
-      <button class="button" mat-raised-button color="primary" routerLink="/book-search">Change my choices</button>
+      <button class="button" mat-raised-button color="primary" routerLink="/book-search" (click)="setRandomize(false)">Change my choices</button>
 
     </mat-card-actions>
   </mat-card>
