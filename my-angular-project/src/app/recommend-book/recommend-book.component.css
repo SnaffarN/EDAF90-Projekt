@@ -7,3 +7,14 @@
   .example-section {
     margin: 12px 0;
   }
+
+
+  .recommend-book-card {
+    margin: 10px;
+    width: 600px;
+    align-self: center;
+}
+
+.recommend-book-button {
+  flex: 1;
+}

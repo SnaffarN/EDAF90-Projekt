@@ -12,6 +12,10 @@ export class RecommendBookComponent implements OnInit{
 
   search: string = '';
 
+  newSuggestion(): void {
+    console.log("Generera nytt förslag");
+  }
+
   constructor(private book: BookService) {}
 
   ngOnInit(): void {

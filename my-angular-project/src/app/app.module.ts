@@ -19,6 +19,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
 import {BookService} from './services/book.service';
+import { BookConfirmationComponent } from './book-confirmation/book-confirmation.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {BookService} from './services/book.service';
     BookSearchComponent,
     RecommendBookComponent,
     HomeComponent,
+    BookConfirmationComponent,
   ],
   imports: [
     BrowserModule,
