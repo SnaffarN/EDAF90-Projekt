@@ -9,21 +9,21 @@ import { Book } from '../Book';
 export class SavedBooksComponent implements OnInit {
   saved = [] as Book[];
   
-  constructor(private bookService: BookService) {
-    bookService.addSavedBook.subscribe(book =>
-      this.addSavedBook(book));
-  }
+  constructor(private bookService: BookService) {}
 
   ngOnInit(): void {
-      this.bookService.getSavedBooks().subscribe((books) => this.saved = books)
+      this.bookService.getSavedBooks().subscribe((books) => {
+        console.log("[getSavedBooks] Retrieved saved books from json-server")
+        this.saved = books
+      });
+      this.bookService.addSavedBook.subscribe(book => {
+        console.log("[addSavedBook] Adding: " + book.title + " to saved books");
+        this.saved.push(book);
+      });
   }
 
   markAsRead(book: Book) {
     this.bookService.removeSaved(book);
     this.saved = this.saved.filter(b => b.id !== book.id);
-  }
-
-  addSavedBook(book: Book) {
-    this.saved.push(book);
   }
 }
