@@ -7,7 +7,7 @@
       "genre": "fantasy",
       "num_pages": 451,
       "type": "novel",
-      "set_in": "fantasy",
+      "set_in": "Fantasy",
       "target_audience": "youngAdult",
       "language": "english"
     },
@@ -15,12 +15,262 @@
       "id": 2,
       "title": "Ninteteen Eighty-Four",
       "author": "George Orwell",
-      "genre": "Science fiction",
+      "genre": "scienceFiction",
       "num_pages": 313,
       "type": "novel",
       "set_in": "greatBritain",
       "target_audience": "adult",
       "language": "english"
+    },
+    {
+      "title": "Normal people",
+      "author": "Sally Rooney",
+      "genre": "romance",
+      "num_pages": 266,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "ireland",
+      "target_audience": "youngAdult"
+    },
+    {
+      "title": "Memoirs of a Geisha",
+      "author": "Arthur Golden",
+      "genre": "historicalFiction",
+      "num_pages": 448,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "japan",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Männen i mitt liv",
+      "author": "Sofia Rönnow Pessah",
+      "genre": "fiction",
+      "num_pages": 243,
+      "book_type": "novel",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "The wild iris",
+      "author": "Louise Glück",
+      "genre": "poetry",
+      "num_pages": 71,
+      "book_type": "poetry",
+      "language": "english",
+      "set_in": "usa",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Shadow and bone",
+      "author": "Leigh Bardugo",
+      "genre": "fantasy",
+      "num_pages": 295,
+      "book_type": "partOfSeries",
+      "language": "english",
+      "set_in": "fantasy",
+      "target_audience": "youngAdult"
+    },
+    {
+      "title": "Åtta procent av ingenting",
+      "author": "Etgar Keret",
+      "genre": "shortStories",
+      "num_pages": 195,
+      "book_type": "shortStoryCollection",
+      "language": "swedish",
+      "set_in": "israel",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Pawn of prophecy",
+      "author": "David Eddings",
+      "genre": "fantasy",
+      "num_pages": 265,
+      "book_type": "partOfSeries",
+      "language": "english",
+      "set_in": "fantasy",
+      "target_audience": "adult"
+    },
+    {
+      "title": "A little life",
+      "author": "Hanya Yanagihara",
+      "genre": "fiction",
+      "num_pages": 720,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "usa",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "classics",
+      "num_pages": 546,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "greatBritain",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Vindens skugga",
+      "author": "Carlos Ruiz Zafón",
+      "genre": "adventureStories",
+      "num_pages": 479,
+      "book_type": "short story",
+      "language": "swedish",
+      "set_in": "spain",
+      "target_audience": "youngAdult"
+    },
+    {
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "classics",
+      "num_pages": 864,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "russia",
+      "target_audience": "adult"
+    },
+    {
+      "title": "It",
+      "author": "Stephen King",
+      "genre": "horror",
+      "num_pages": 1138,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "usa",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Horror",
+      "num_pages": 280,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "greatBritain",
+      "target_audience": "adult"
+    },
+    {
+      "title": "The house at the end of the world",
+      "author": "Dean Koontz",
+      "genre": "scienceFiction",
+      "num_pages": 398,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "saintHelena",
+      "target_audience": "adult"
+    },
+    {
+      "title": "The book of hidden things",
+      "author": "Francesco Dimitri",
+      "genre": "thriller",
+      "num_pages": 400,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "italy",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Spindeln",
+      "author": "Lars Kepler",
+      "genre": "Crime",
+      "num_pages": 544,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Spegelmannen",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 522,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Hypnotisören",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 536,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Paganinikontraktet",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 561,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Eldvittnet",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 561,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Sandmannen",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 517,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Stalker",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 561,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Lazarus",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 530,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "Kaninjägaren",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 572,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    },
+    {
+      "title": "The secret history",
+      "author": "Donna Tartt",
+      "genre": "crime",
+      "num_pages": 640,
+      "book_type": "novel",
+      "language": "english",
+      "set_in": "newEngland",
+      "target_audience": "adult"
     }
   ],
   "savedBooks": []
