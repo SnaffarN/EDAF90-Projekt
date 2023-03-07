@@ -1,6 +1,7 @@
 {
 	"books": [
 		{
+			"id": 3, 
 			"title": "Normal people",
 			"author": "Sally Rooney",
 			"genre": "romance",
@@ -11,6 +12,7 @@
 			"target_audience": "young adult"
 		},
 		{
+			"id": 4, 
 			"title": "Memoirs of a Geisha",
 			"author": "Arthur Golden",
 			"genre": "historical fiction",
@@ -21,6 +23,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 5, 
 			"title": "Männen i mitt liv",
 			"author": "Sofia Rönnow Pessah",
 			"genre": "fiction",
@@ -31,6 +34,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 5, 
 			"title": "The wild iris",
 			"author": "Louise Glück",
 			"genre": "poetry",
@@ -41,6 +45,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 6, 
 			"title": "Shadow and bone",
 			"author": "Leigh Bardugo",
 			"genre": "fantasy",
@@ -51,6 +56,7 @@
 			"target_audience": "young adult"
 		}, 
         {
+			"id": 7, 
 			"title": "Åtta procent av ingenting",
 			"author": "Etgar Keret",
 			"genre": "short stories",
@@ -61,6 +67,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 8, 
 			"title": "Pawn of prophecy",
 			"author": "David Eddings",
 			"genre": "Fantasy",
@@ -71,6 +78,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 9, 
 			"title": "A little life",
 			"author": "Hanya Yanagihara",
 			"genre": "fiction",
@@ -81,6 +89,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 10, 
 			"title": "Jane Eyre",
 			"author": "Charlotte Brontë",
 			"genre": "Classics",
@@ -91,6 +100,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 11, 
 			"title": "Vindens skugga",
 			"author": "Carlos Ruiz Zafón",
 			"genre": "Adventure stories",
@@ -101,6 +111,7 @@
 			"target_audience": "young adult"
 		},
         {
+			"id": 12, 
 			"title": "Anna Karenina",
 			"author": "Leo Tolstoy",
 			"genre": "Classics",
@@ -111,6 +122,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 13, 
 			"title": "It",
 			"author": "Stephen King",
 			"genre": "Horror",
@@ -121,6 +133,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 14, 
 			"title": "Frankenstein",
 			"author": "Mary Shelley",
 			"genre": "Horror",
@@ -131,6 +144,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 15, 
 			"title": "The house at the end of the world",
 			"author": "Dean Koontz",
 			"genre": "Science fiction",
@@ -141,6 +155,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 16, 
 			"title": "The book of hidden things",
 			"author": "Francesco Dimitri",
 			"genre": "Thriller",
@@ -151,6 +166,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 17, 
 			"title": "Spindeln",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -161,6 +177,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 18, 
 			"title": "Spegelmannen",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -171,6 +188,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 19, 
 			"title": "Hypnotisören",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -181,6 +199,7 @@
 			"target_audience": "adult"
 		},
         {
+			"id": 20, 
 			"title": "Paganinikontraktet",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -191,6 +210,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 21, 
 			"title": "Eldvittnet",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -201,6 +221,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 22, 
 			"title": "Sandmannen",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -211,6 +232,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 23, 
 			"title": "Stalker",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -221,6 +243,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 24, 
 			"title": "Lazarus",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -231,6 +254,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 25, 
 			"title": "Kaninjägaren",
 			"author": "Lars Kepler",
 			"genre": "Crime",
@@ -241,6 +265,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 26, 
 			"title": "The secret history",
 			"author": "Donna Tartt",
 			"genre": "Crime",
@@ -251,6 +276,7 @@
 			"target_audience": "adult"
 		}, 
         {
+			"id": 27, 
 			"title": "",
 			"author": "Lars Kepler",
 			"genre": "Crime",

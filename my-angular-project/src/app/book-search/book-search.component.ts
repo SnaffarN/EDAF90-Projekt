@@ -11,6 +11,8 @@ import { Book } from '../Book';
 export class BookSearchComponent {
   @Output() submit: EventEmitter<any> = new EventEmitter();
 
+  selected = -1;
+
   genres: Array<any> = [
     {name: "Adventure stories", value: "adventureStories"},
     {name: "Classics", value: "classics"},
@@ -50,19 +52,24 @@ export class BookSearchComponent {
   
   bookForm = this.fb.group({
     genre: [''],
-    type: this.fb.array(this.types),
+    type: this.fb.array(Object.keys(this.types).map(key=> false)),
     language: [''],
     set_in: [''], 
     target_audience: ['']
   })
 
   submitForm() {
-   // console.log(this.bookForm.value);
+    this.bookForm.value.type = this.bookForm.value.type?.map((v, i) => v ? this.types[i].value : null).filter(v => v !== null)[0];
     const search = this.bookForm.value;
     this.book.addSearch(search as Book);
   }
   
-  constructor(private fb: FormBuilder, private book: BookService) {}
+  constructor(private fb: FormBuilder, private book: BookService) {
+  }
+
+  changeSelection(event:any, index:any) {
+    this.selected = event.target.checked ? index : undefined;
+  }
   
 }
   
