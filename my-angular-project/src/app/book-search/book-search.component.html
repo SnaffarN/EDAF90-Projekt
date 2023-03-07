@@ -12,6 +12,15 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
+      <span class="checkbox-types">
+        <ul>
+            <li formArrayName="type" *ngFor="let t of types; let i = index"> 
+              <mat-checkbox [formControlName]="i" [checked]="selected === i" (change)="selected = i" >
+                {{t.name}}
+              </mat-checkbox>
+            </li>
+        </ul>
+      </span>
       <mat-form-field appearance="fill">
         <mat-label>Language</mat-label>
         <mat-select formControlName="language">
