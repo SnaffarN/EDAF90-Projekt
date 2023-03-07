@@ -298,5 +298,17 @@
       "target_audience": "adult"
     }
   ],
-  "savedBooks": []
+  "savedBooks": [
+    {
+      "id": 25,
+      "title": "Lazarus",
+      "author": "Lars Kepler",
+      "genre": "crime",
+      "num_pages": 530,
+      "book_type": "partOfSeries",
+      "language": "swedish",
+      "set_in": "sweden",
+      "target_audience": "adult"
+    }
+  ]
 }

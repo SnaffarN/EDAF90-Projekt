@@ -1,8 +1,13 @@
 <div>
-    <li *ngFor="let book of saved">
+    <mat-card>
+        <mat-card-header>
+           <mat-card-title> Your Favorites: </mat-card-title>
+        </mat-card-header>
+    <li class = "lista" *ngFor="let book of saved">
         {{book.title}} 
-        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" (click)="markAsRead(book)">
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="highlight_off" ></mat-icon>
+        <button mat-icon-button class="knapp" aria-label="ta-bort-knapp" (click)="markAsRead(book)">
+            <mat-icon aria-hidden="false" aria-label="ta-bort-icon" fontIcon="highlight_off" ></mat-icon>
         </button> 
     </li>
+</mat-card>
 </div>
