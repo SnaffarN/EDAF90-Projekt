@@ -298,39 +298,5 @@
       "target_audience": "adult"
     }
   ],
-  "savedBooks": [
-    {
-      "id": 1,
-      "title": "Game of Thrones",
-      "author": "George R.R. Martin",
-      "genre": "fantasy",
-      "num_pages": 451,
-      "type": "novel",
-      "set_in": "fantasy",
-      "target_audience": "youngAdult",
-      "language": "english"
-    },
-    {
-      "id": 2,
-      "title": "Ninteteen Eighty-Four",
-      "author": "George Orwell",
-      "genre": "Science fiction",
-      "num_pages": 313,
-      "type": "novel",
-      "set_in": "greatBritain",
-      "target_audience": "adult",
-      "language": "english"
-    },
-    {
-      "id": 19,
-      "title": "Spegelmannen",
-      "author": "Lars Kepler",
-      "genre": "crime",
-      "num_pages": 522,
-      "book_type": "partOfSeries",
-      "language": "swedish",
-      "set_in": "sweden",
-      "target_audience": "adult"
-    }
-  ]
+  "savedBooks": []
 }
