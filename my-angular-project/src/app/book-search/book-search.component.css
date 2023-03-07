@@ -12,3 +12,20 @@
   align-items: flex-start;
   margin: 10px;
 }
+
+.type {
+  color: rgb(110, 97, 97);
+  margin: 5px;
+}
+
+.div-list {
+  margin: -5px;
+}
+
+.checkbox-ul {
+  margin: 5px;
+}
+
+.checkbox-list {
+  margin: -3px;
+}

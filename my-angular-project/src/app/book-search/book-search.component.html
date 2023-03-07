@@ -12,15 +12,18 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <span class="checkbox-types">
-        <ul>
-            <li formArrayName="type" *ngFor="let t of types; let i = index"> 
-              <mat-checkbox [formControlName]="i" [checked]="selected === i" (change)="selected = i" >
-                {{t.name}}
-              </mat-checkbox>
-            </li>
-        </ul>
-      </span>
+      <div class="div-list">
+        <h2 class="type"> Type of book </h2>
+        <span class="checkbox-types">
+          <ul class="checkbox-ul">
+              <li class="checkbox-list" formArrayName="type" *ngFor="let t of types; let i = index"> 
+                <mat-checkbox [formControlName]="i" [checked]="selected === i" (change)="selected = i" >
+                  {{t.name}}
+                </mat-checkbox>
+              </li>
+          </ul>
+        </span>
+      </div>
       <mat-form-field appearance="fill">
         <mat-label>Language</mat-label>
         <mat-select formControlName="language">
