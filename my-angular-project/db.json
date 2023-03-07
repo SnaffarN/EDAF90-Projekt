@@ -298,5 +298,17 @@
       "target_audience": "adult"
     }
   ],
-  "savedBooks": []
+  "savedBooks": [
+    {
+      "id": 7,
+      "title": "Shadow and bone",
+      "author": "Leigh Bardugo",
+      "genre": "fantasy",
+      "num_pages": 295,
+      "book_type": "partOfSeries",
+      "language": "english",
+      "set_in": "fantasy",
+      "target_audience": "youngAdult"
+    }
+  ]
 }
